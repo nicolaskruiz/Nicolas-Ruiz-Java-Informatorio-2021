@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        
         int nro1;
         int nro2;
         String mas = " + ";
@@ -30,8 +29,7 @@ public class Ejercicio2 {
         System.out.println(nro1 + dividido + nro2 + igual + division);
         // modulo
         int modulo = nro1 % nro2;
-        System.out.println(nro1 + modulado + nro2 + igual + modulo);
-        
+        System.out.println(nro1 + modulado + nro2 + igual + modulo);        
         scan.close();
     }
 }

@@ -4,17 +4,16 @@ import java.util.List;
 
 public class Ejercicio01 {
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Agregar ciudades favoritas: ");
-        String ciudadesFav = scan.nextLine();
-        scan.close();
-
-
         List<String> listaCiudadesFav = new ArrayList<>();
-        for(String ciudad : listaCiudadesFav){
-            listaCiudadesFav.add(ciudadesFav);
-            System.out.println(ciudad);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Agregar ciudades favoritas de Argentina: ");
+        int numRanking = 0;
+        for(int i = 1; i <= 3; i++){
+            String ciudadesFav = scan.nextLine();
+            numRanking++;
+            listaCiudadesFav.add("#" + numRanking + " " + ciudadesFav);
         }
-        
+        scan.close();
+        System.out.println(listaCiudadesFav);
     }
 }

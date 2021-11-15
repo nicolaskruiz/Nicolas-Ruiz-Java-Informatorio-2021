@@ -9,8 +9,7 @@ public class Ejercicio4 {
         int resultado = 1;
         for (int i = 2; i <=num; i++){
             resultado *= i;
-            
         }
-        System.out.println("El factorial de "+num+" es: "+resultado);
+        System.out.println("El factorial de " + num + " es: " + resultado);
     }
 }

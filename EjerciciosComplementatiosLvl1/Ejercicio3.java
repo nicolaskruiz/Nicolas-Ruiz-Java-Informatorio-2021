@@ -11,7 +11,6 @@ public class Ejercicio3 {
         int num = scan.nextInt();
         scan.close();
         List<Integer> resultado = new ArrayList<>();
-
         for (int i = 1; i <= num; i++) {
             resultado.add(i);
             System.out.println(resultado);
